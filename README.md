@@ -5,7 +5,7 @@
 
 <div align="center">
 <a href="https://www.bilibili.com/video/BV1jx421U7h4/?vd_source=b303f6e8e0ed18809d8752d41ab1de7d">
-	<img width="972" alt="luci-app-yt-dlp_intro_video" src="luci-app-yt-dlp_intr.png">
+	<img width="972" alt="luci-app-yt-dlp_intro_video" src="luci-app-yt-dlp_intro.png">
 </a>
 </div>
 
