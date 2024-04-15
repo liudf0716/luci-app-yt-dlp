@@ -1,7 +1,7 @@
 ## luci-app-yt-dlp
 该项目是yt-dlp的luci界面，通过该界面可以下载youtube、Twitter、B站等yt-dlp支持下载的视频网站。
 
-### 效果演示
+### 视频演示
 
 <div align="center">
 <a href="https://www.bilibili.com/video/BV1jx421U7h4/?vd_source=b303f6e8e0ed18809d8752d41ab1de7d">
