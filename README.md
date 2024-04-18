@@ -34,7 +34,7 @@ make -j4
 4. 单独编译
 
 ```
-make package/feeds/luci/applications/luci-app-yt-dlp/compile
+make package/feeds/luci/luci-app-yt-dlp/compile
 ```
 
 ## 联系方式
