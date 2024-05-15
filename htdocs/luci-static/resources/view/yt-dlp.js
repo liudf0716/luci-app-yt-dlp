@@ -6,6 +6,7 @@
 'require uci';
 'require network';
 'require rpc';
+'require tools.github as github';
 
 return view.extend({
     load: function() {
@@ -120,10 +121,11 @@ return view.extend({
 				E('th', { 'class': 'th', 'style': 'width:20%' }, _('Action')),
 			])
 		]);
-
+        var description = github.luci_desc('Download video from Youtube, Facebook, Twitter, etc.', 'liudf0716', 'yt-dlp')
+        
         var v = E([], [
             E('h2', {}, [ _('Download Video') ]),
-            E('div', { 'class': 'cbi-section-descr' }, _('Download video from Youtube, Facebook, Twitter, etc.')),
+            E('div', { 'class': 'cbi-section-descr' }, description ),
             E('table', { 'class': 'table' }, [
                 E('tr', { 'class': 'tr' }, [
                     E('td', { 'class': 'td left' }, [
